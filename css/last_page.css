@@ -1,0 +1,230 @@
+/* =====================black_nav start====================== */
+
+.black_nav{
+    background: black;
+    color: #ffff;
+}
+.black_nav .container button {
+    background: transparent;
+    border: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0;
+    margin-right: 40px;
+    color: #ffffff;
+    transition: all linear .3s;
+}
+.black_nav .container button:hover{
+    color: #FF9900;
+}
+.black_nav .container button::after{
+    font-size: 0;
+}
+.black_nav .container button i{
+    text-align: center;
+    font-size: 11px;
+    margin-left: 18px;
+}
+/* =====================black_nav end====================== */
+/* ================== contact_details_part start================ */
+#last_details_part .container .contact_tittle h2{
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 15px;
+}
+#last_details_part .container .contact_detail{
+    display: flex;
+    justify-content: center;
+}
+
+#last_details_part .container .contact_detail form{
+    width: 649px;
+    height: 575px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 50PX 90PX;
+    margin: 60px 0 111px;
+    background: #ffff;
+}
+#last_details_part .container .contact_detail form input{
+    width: 427px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1PX solid #898989;
+    margin: 10PX 0 7px 0;
+    padding-left: 17PX;
+    outline: 0;
+}
+#last_details_part .container .contact_detail form .eye{
+    position: relative;
+}
+#last_details_part .container .contact_detail form .eye i {
+    position: absolute;
+    top: 5px;
+    right: 45px;
+    transform: translate(-100%, 100%);
+    font-size: 20px;
+    color: #898989;
+}
+#last_details_part .container .contact_detail form .eye input{
+    width: 427px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1PX solid #898989;
+    margin: 10PX 0 7px 0;
+    padding-left: 17PX;
+    outline: 0;
+}
+#last_details_part .container .contact_detail form input::placeholder{
+    color: #AAA;
+    font-family: Nunito Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+}
+#last_details_part .container .contact_detail form label{
+    color: #898989;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    display: block;
+
+}
+#last_details_part .container .contact_detail form .birthday{
+    width: 105px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1PX solid #898989;
+    margin: 10PX 0 0;
+    padding-left: 17PX;
+}
+
+
+#last_details_part .container .contact_detail form .text{
+    display: flex;
+    justify-content: flex-end;
+}
+#last_details_part .container .contact_detail form .text p{
+    color: #4267B2;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    margin-right: 50px;
+    font-style: normal;
+    font-weight: 400;
+}
+#last_details_part .container .contact_detail form .bunt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last_details_part .container .contact_detail form .bunt1 button {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    background: #FF9900;
+    border: 0;
+    padding: 15px 65px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+#last_details_part .container .contact_detail form .agree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#last_details_part .container .contact_detail form .agree p{
+    color: #AAA;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#last_details_part .container .contact_detail form .agree p span{
+    color: #4267B2;
+}
+#last_details_part .container .contact_detail form .bunt2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last_details_part .container .contact_detail form .bunt2 button {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    background: #FF9900;
+    border: 0;
+    padding: 15px 65px;
+    border-radius: 50px;
+}
+#last_details_part .container .contact_detail form .media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin: 20px 0;
+}
+#last_details_part .container .contact_detail form .media .facebook{
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background: #4267B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last_details_part .container .contact_detail form .media .facebook i{
+    color: #FFF;
+    font-size: 20px;
+}
+#last_details_part .container .contact_detail form .media .google{
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background: #DB4A39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last_details_part .container .contact_detail form .media .google i{
+    color: #FFF;
+    font-size: 20px;
+}
+#last_details_part .container .contact_detail form .here{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#last_details_part .container .contact_detail form .here p{
+    color: #AAA;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#last_details_part .container .contact_detail form .here p span{
+    color: #4267B2;
+}
+
+
+
+
+
+/* ================== contact_details_part end================ */

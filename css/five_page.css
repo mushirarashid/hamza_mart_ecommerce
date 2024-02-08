@@ -1,0 +1,514 @@
+/* =====================black_nav start====================== */
+
+.black_nav{
+    background: black;
+    color: #ffff;
+}
+.black_nav .container button {
+    background: transparent;
+    border: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0;
+    margin-right: 40px;
+    color: #ffffff;
+    transition: all linear .3s;
+}
+.black_nav .container button:hover{
+    color: #FF9900;
+}
+.black_nav .container button::after{
+    font-size: 0;
+}
+.black_nav .container button i{
+    text-align: center;
+    font-size: 11px;
+    margin-left: 18px;
+}
+/* =====================black_nav end====================== */
+
+#brand_box_part .container{
+    padding: 20px 0;
+}
+
+#brand_box_part .container .top_categories{
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+#brand_box_part .container .top_categories h3{
+    background: #FF9900;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 16px 0 10px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+#brand_box_part .container .top_categories ul{
+    padding: 0 29px 0 24px;
+    width: 100%;
+
+    
+}
+#brand_box_part .container .top_categories ul li{
+    border-bottom: 1px solid #FF9900;
+}
+#brand_box_part .container .top_categories ul li a{
+    display: flex;
+    column-gap: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding: 20px 0 21px;
+}
+#brand_box_part .container .top_categories ul li a i{
+    font-size: 18px;
+    color: #FF9900;
+}
+#brand_box_part .container .top_categories .button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #FF9900;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    margin: 0px 0 21px 0;
+}
+
+
+
+
+
+
+
+
+
+
+#brand_box_part .container .row{
+    row-gap: 18px;
+}
+
+#brand_box_part .container .one {
+    position: relative;
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    height: 204px;
+    display: flex;
+    column-gap: 18px;
+}
+#brand_box_part .container .one .icon {
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+    position: absolute;
+    top: 0;
+    right: 17px;
+    transform: translateY(15%);
+    transition: all linear .4s;
+}
+#brand_box_part .container .one .icon i{
+    transition: all linear .3s;
+    height: 44px;
+    width: 44px;
+    border: 1px solid #FF9900;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    font-size: 22px;
+    background: #FF9900;
+    color: #ffffff;
+    
+}
+#brand_box_part .container .one .icon i:hover{
+    background: transparent;
+    border: 1px solid #FF9900;
+    color: #FF9900;
+    background: #ffff;
+}
+#brand_box_part .container .one .image{
+    width: 204px;
+    height: 100%;
+    border-right: 1px solid #FF9900;
+}
+#brand_box_part .container .one .image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#brand_box_part .container .one .text .name h3{
+    color: #000;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#brand_box_part .container .one .text .star .star_icon{
+    color: #FF9900;
+    font-size: 12px;
+}
+#brand_box_part .container .one .text .star .star_icon span{
+    color: rgba(0, 0, 0, .4);
+    font-size: 12px;
+}
+#brand_box_part .container .one .text .star{
+    display: flex;
+    column-gap: 5px;
+}
+#brand_box_part .container .one .text .star .number p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2px;
+}
+
+#brand_box_part .container .one .text .detail p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 719px;
+    margin: 12px 0;
+}
+#brand_box_part .container .one .text .price p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#brand_box_part .container .one .text .love_icon i{
+    color: #FF9900;
+    font-size: 22px;
+    margin-top: 5px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#brand_box_part .container .butn{
+    margin: 22px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+}
+#brand_box_part .container .butn a{
+    border: 1px solid #FF9900;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    color: #FF9900;
+    padding: 17px 55px;
+}
+
+
+
+#brand_box_part .container .price_range{
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+#brand_box_part .container .price_range h3{
+    background: #FF9900;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 16px 0 10px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+#brand_box_part .container .price_range .range_bar{
+    width: 160px;
+    height: 4px;
+    background: #D9D9D9;
+    margin-top: 40px;
+    position: relative;
+}
+#brand_box_part .container .price_range .range_bar::after{
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: #FF9900;
+    border-radius: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    top: 0;
+}
+#brand_box_part .container .price_range .range_bar::before{
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: #FF9900;
+    border-radius: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    top: 0;
+}
+#brand_box_part .container .price_range .button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #FF9900;
+    padding: 6px 25px 6px 25px;
+    text-align: center;
+    margin: 20px 0 21px 0;
+    border-radius: 10px;
+}
+#brand_box_part .container .price_range .text p {
+    color: #000;
+    font-family: 'Nunito';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 13px;
+}
+
+
+#brand_box_part .container .sizes_box{
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+#brand_box_part .container .sizes_box h3{
+    background: #FF9900;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 16px 0 10px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#brand_box_part .container .sizes_box .first {
+    display: flex;
+    column-gap: 10px;
+    margin: 28px 0 11px;
+}
+#brand_box_part .container .sizes_box .first .box{
+    width: 42px;
+    height: 25px;
+    border: 1px solid #D6D0D0;
+    transition: all linear .3s;
+}
+#brand_box_part .container .sizes_box .first .box:hover{
+    color: #FF9900;
+    border: 1px solid #FF9900;
+}
+#brand_box_part .container .sizes_box .first .box:hover p{
+    color: #FF9900;
+}
+#brand_box_part .container .sizes_box .first .box p{
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    transition: all linear .3s;
+}
+#brand_box_part .container .sizes_box .second {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 28px;
+}
+#brand_box_part .container .sizes_box .second .box{
+    width: 42px;
+    height: 25px;
+    border: 1px solid #D6D0D0;
+}
+#brand_box_part .container .sizes_box .second .box p{
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    transition: all linear .3s;
+}
+#brand_box_part .container .sizes_box .second .box:hover{
+    color: #FF9900;
+    border: 1px solid #FF9900;
+}
+#brand_box_part .container .sizes_box .second .box:hover p{
+    color: #FF9900;
+}
+#brand_box_part .container .brand_btn{
+    margin: 22px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+}
+#brand_box_part .container .brand_btn a{
+    border: 1px solid #FF9900;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    background: #FF9900;
+    color: #FFFFFF;
+    padding: 12px 73px;
+}
+
+#brand_box_part .container .brand_logo{
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#brand_box_part .container .top_line{
+    display: flex;
+    justify-content: space-between;
+}
+#brand_box_part .container .top_line .left{
+    display: flex;
+    column-gap: 20px;
+}
+#brand_box_part .container .top_line .left .text1 p{
+    color: #898989;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+#brand_box_part .container .top_line .left .text2{
+    display: flex;
+    column-gap: 20px;
+}
+#brand_box_part .container .top_line .left .text2 p{
+    color: #AAA;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+#brand_box_part .container .top_line .left .text2 i{
+    color: #AAA;
+    font-size: 12px;
+    margin-top: 7px;
+}
+#brand_box_part .container .top_line .right{
+    display: flex;
+    column-gap: 20px;
+}
+#brand_box_part .container .top_line .right .text1 p{
+    color: #898989;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+#brand_box_part .container .top_line .right .text2{
+    display: flex;
+    column-gap: 20px;
+}
+#brand_box_part .container .top_line .right .text2 p{
+    color: #AAA;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+#brand_box_part .container .top_line .right .text2 i{
+    color: #AAA;
+    font-size: 12px;
+    margin-top: 7px;
+}
+#brand_box_part .container .top_line .right .icon i{
+    color: #898989;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: all linear .3s;
+}
+#brand_box_part .container .top_line .right .icon i:hover{
+    color: #FF9900;
+}

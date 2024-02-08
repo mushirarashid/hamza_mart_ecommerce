@@ -1,0 +1,1205 @@
+
+
+/* =====================black_nav start====================== */
+
+.black_nav{
+    background: black;
+    color: #ffff;
+}
+.black_nav .container button {
+    background: transparent;
+    border: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0;
+    margin-right: 40px;
+    color: #ffffff;
+    transition: all linear .3s;
+}
+.black_nav .container button:hover{
+    color: #FF9900;
+}
+.black_nav .container button::after{
+    font-size: 0;
+}
+.black_nav .container button i{
+    text-align: center;
+    font-size: 11px;
+    margin-left: 18px;
+}
+/* =====================black_nav end====================== */
+/* ====================demo_part start==================== */
+#demo_part{
+    padding: 30px 0 50px;
+}
+#demo_part .container .droneimage_box{
+    height: 452px;
+    /* width: 427px; */
+    border: 1px solid #FF9900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+#demo_part .container .droneimage_box .first_slider{
+    height: 100%;
+    width: 100%;
+}
+
+#demo_part .container .droneimage_box .first_slider ul{
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: space-between;
+}
+#demo_part .container .little_image {
+    height: 91px;
+    width: 91px;
+    border: 1px solid #FF9900;
+}
+#demo_part .container .little_slider {
+    position: relative;
+}
+.little_slider .left{
+    height: 25px;
+    width: 25px; 
+    border-radius: 50%;
+    background: #FF9900;
+    color: #ffff;
+    z-index: 9999;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+
+}
+.little_slider .right{
+    height: 25px;
+    width: 25px; 
+    border-radius: 50%;
+    background: #FF9900;
+    color: #ffff;
+    z-index: 9999;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.pro_demo h2{
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px; 
+    margin-bottom: 12px;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D6D0D0;
+}
+.review .one .text {
+    display: flex;
+    column-gap: 14px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.review .one .text .dag{
+    width: 1px;
+    height: 23px;
+    background: #000;
+}
+.review .one .text .ak p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.review .one .text .dui p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.review .one .icon i{
+    color: #FF9900;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.review .one .icon span i{
+    color: rgba(0, 0, 0, .4);
+}
+.review .two .icon i{
+    color: #FF9900;
+    font-size: 20px;
+}
+.review .wishlist{
+   display: flex;
+   column-gap: 6px;
+   align-items: center;
+
+}
+.review  .two .wishlist .icon i{
+    color: #FF9900;
+    font-size: 20px;
+}
+.review  .two .wishlist .text p{
+    color: #F90;
+    font-family: 'Nunito Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px; 
+}
+
+.price_part .price h3 {
+    color: #000;
+    font-family: 'Nunito';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 20px 0 15px;
+}
+.price_part .text p {
+    color: #000;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.color_part{
+    display: flex;
+    column-gap: 7px;
+    margin: 30px 0 34px;
+}
+.color_part .color p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.color_part .black {
+   height: 30px;
+   width: 30px;
+   background: #000;
+   border: 1px solid #000;
+}
+.color_part .ash {
+    height: 30px;
+    width: 30px;
+    background: #AAA;
+    border: 1px solid #AAA;
+}
+.color_part .white {
+    height: 30px;
+    width: 30px;
+    background: #ffffff;
+    border: 1px solid #D6D0D0;
+}
+.color_part .deep {
+    height: 30px;
+    width: 30px;
+    background: #9C9C9C;
+    border: 1px solid #9C9C9C;
+}
+.box1{
+    display: flex;
+    column-gap: 21px;
+    margin-bottom: 20px;
+}
+.box1 .number{
+    width: 203px;
+    height: 50px; 
+    border: 1px solid #F90;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 .number .goj {
+    width: 50px;
+    height: 100%;
+    background: #F90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 .number .goj p{
+    color: #FFF;
+    font-family: 'Nunito';
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.box1 .number .text {
+    width: 50px;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 .number .text p{
+    color: #000;
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.box1 .number .beyog {
+    width: 50px;
+    height: 100%;
+    background: #F90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 .number .beyog p{
+    color: #ffffff;
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.box1 .compare{
+    width: 203px;
+    height: 50px; 
+    border: 1px solid #F90;
+    border-radius: 10px;
+    background: #F90;
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.box1 .compare .icon i{
+    color: #FFF;
+    font-size: 25px;
+}
+
+.box1 .compare .text p{
+    color: #FFF;
+    font-family: 'Nunito Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px; 
+}
+
+.box2{
+    display: flex;
+    column-gap: 21px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #AAAAAA;
+    width: 1320px;
+}
+.box2 .cart{
+    width: 203px;
+    height: 50px; 
+    border: 1px solid #F90;
+    border-radius: 10px;
+    background: #F90;
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.box2 .cart .icon i{
+    color: #FFF;
+    font-size: 25px;
+}
+
+.box2 .cart .text p{
+    color: #FFF;
+    font-family: 'Nunito Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px; 
+}
+
+
+.box2 .buy{
+    width: 203px;
+    height: 50px; 
+    border: 1px solid #F90;
+    border-radius: 10px;
+    background: #F90;
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box2 .buy .text p{
+    color: #FFF;
+    font-family: 'Nunito Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px; 
+}
+.media .tech p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 25px 0 18px;
+}
+
+.media .tag p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.share{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #AAAAAA;
+    width: 1320px;
+}
+
+.share .text p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.share .social_media{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F90;
+}
+
+.share .facebook{
+    color: #FFF;
+    background: #4267B2;
+}
+
+.share .twitter{
+    color: #FFF;
+    background: #00ACEE;
+}
+
+.share .penterest{
+    color: #FFF;
+    background: #E60023;
+}
+
+.share .whatsapp{
+    color: #FFF;
+    background: #25D366;
+}
+.delivery_part{
+    border: 1px solid #F90;
+    padding: 23px 29px 31px 27px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+.delivery_part .dwlivery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delivery_part .dwlivery .text p{
+    color: #898989;
+    font-family: 'Nunito Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px; 
+}
+.delivery_part .dwlivery .icon{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #F90;
+    color: #ffff;
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delivery_part .dhaka{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delivery_part .dhaka .text h5{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+.delivery_part .dhaka .icon i{
+    font-size: 25px;
+    color: #F90;
+}
+.delivery_part .dhaka .btn {
+    padding: 0;
+}
+.delivery_part .dhaka .btn a{
+    height: 20px;
+    width: 49px;
+    background: #F90;
+    border-radius: 10px;
+    color: #FFF;
+    font-family: 'Nunito Sans';
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    line-height: 20px;
+}
+.delivery_part .home{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.delivery_part .home .text h5{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+.delivery_part .home .text p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+}
+.delivery_part .home .icon i{
+    font-size: 25px;
+    color: #F90;
+}
+.delivery_part .cash{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 38px;
+}
+.delivery_part .cash .text h5{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.delivery_part .cash .icon i{
+    font-size: 25px;
+    color: #F90;
+}
+.delivery_part .cash::after{
+    content: "";
+    height: 1px;
+    width: 311px;
+    left: -27px;
+    bottom: -25px;
+    background: #F90;
+    position: absolute;
+}
+
+.delivery_part .service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delivery_part .service .text p{
+    color: #898989;
+    font-family: 'Nunito Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px; 
+}
+.delivery_part .service .icon{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #F90;
+    color: #ffff;
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delivery_part .return{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    position: relative;
+}
+.delivery_part .return .text h5{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.delivery_part .return .text p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+}
+.delivery_part .return .icon i{
+    font-size: 25px;
+    color: #F90;
+}
+
+.delivery_part .available{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    position: relative;
+}
+.delivery_part .available .text h5{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.delivery_part .available .text p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+}
+.delivery_part .available .icon i{
+    font-size: 25px;
+    color: #F90;
+}
+/* ====================demo_part end==================== */
+
+/* ==================prodect_details_part start============== */
+#prodect_details_part{
+    padding: 50px 0;
+}
+#prodect_details_part .container .image_part {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+#prodect_details_part .container .image_part .text p{
+    color: #FFF;
+    font-family: 'Nunito';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: #F90;
+    text-align: center;
+}
+#prodect_details_part .container .image_part .image_box{
+   width: 314px;
+   height: 246px;
+   background: #ffffff;
+   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#prodect_details_part .container .image_part .image_box .text h5{
+    color: #000;
+    font-family: 'Nunito';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+#prodect_details_part .container .size_box{
+    border-left: 1px solid #F90;
+    border-right: 1px solid #F90;
+    border-top: 1px solid #F90;
+    margin-bottom: 50px;
+}
+#prodect_details_part .container .sm_tittle  h3{
+    color: #F90;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 6px 0 6px 18px;
+    border-bottom: 1px solid #F90;
+}
+
+#prodect_details_part .container .size_box .sm_box_line{
+    display: flex;
+
+    border-bottom: 1px solid #F90;
+
+}
+#prodect_details_part .container .size_box .sm_box_line .sm_box{
+   width: 164px;
+   height: 50px;
+   padding: 0 18px;
+   border-left: 1px solid #F90;
+   text-align: center;
+    line-height: 50px;
+}
+#prodect_details_part .container .size_box .sm_box_line .sm_box p{
+    color: #000;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+ }
+#prodect_details_part .container .size_box .sm_box_line .sm_box:first-child{
+    border-left: 0 ;
+}
+
+#prodect_details_part .container .detail_box{
+    border: 1px solid #F90;
+    margin-bottom: 50px;
+}
+#prodect_details_part .container .sm_tittle  h3{
+    color: #F90;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 6px 0 6px 18px;
+    border-bottom: 1px solid #F90;
+    margin-bottom: 0;
+
+}
+#prodect_details_part .container .detail_box .text p{
+    color: #000;
+    font-family: 'Nunito';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 18px 18px 82px;
+    width: 990px;
+}
+
+
+
+
+#prodect_details_part .container .rating_box{
+    border: 1px solid #F90;
+}
+#prodect_details_part .container .rating_box .everything{
+    display: flex;
+    column-gap: 31px;
+}
+#prodect_details_part .container .rating_box .everything .left{
+    padding: 10px 0 13px 21px;
+
+}
+#prodect_details_part .container .rating_box .everything .left .number{
+    display: flex;
+    align-items: flex-end;
+}
+#prodect_details_part .container .rating_box .everything .left .number h4{
+    color: #000;
+    font-family: 'Nunito';
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 0;
+
+}
+#prodect_details_part .container .rating_box .everything .left .number h5{
+    color: #000;
+    font-family: 'Nunito';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 11px;
+
+}
+#prodect_details_part .container .rating_box .everything .left .icon i{
+    color: #F90;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#prodect_details_part .container .rating_box .everything .left .icon span i{
+    color: rgba(0, 0, 0, .4);
+}
+#prodect_details_part .container .rating_box .everything .left .text p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+#prodect_details_part .container .rating_box .everything .right{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+}
+#prodect_details_part .container .rating_box .everything .right .star_line {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+#prodect_details_part .container .rating_box .everything .right .star_line .icon i{
+    color: #F90;
+    font-size: 16px;
+}
+#prodect_details_part .container .rating_box .everything .right .star_line .icon span i{
+    color: rgba(0, 0, 0, .4);
+}
+#prodect_details_part .container .rating_box .everything .right .star_line .rating_line{
+    width: 225px;
+    height: 11px;
+    background: #999999;
+    border-radius: 10px;
+    position: relative;
+}
+#prodect_details_part .container .rating_box .everything .right .star_line .rating_line::after{
+    content: "";
+    width: 172px;
+    height: 11px;
+    background: #F90;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#prodect_details_part .container .rating_box .everything .right .star_line .text p{
+    color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+}
+#prodect_details_part .container .rating_box .everything .right .star_line:nth-child(2) .rating_line::after{
+    content: "";
+    width: 119px;
+    height: 11px;
+    background: #F90;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#prodect_details_part .container .rating_box .everything .right .star_line:nth-child(3) .rating_line::after{
+    content: "";
+    width: 73px;
+    height: 11px;
+    background: #F90;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#prodect_details_part .container .rating_box .everything .right .star_line:nth-child(4) .rating_line::after{
+    content: "";
+    width: 27px;
+    height: 11px;
+    background: #F90;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#prodect_details_part .container .rating_box .everything .right .star_line:nth-child(5) .rating_line::after{
+    content: "";
+    width: 15px;
+    height: 11px;
+    background: #F90;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+#prodect_details_part .product_reviews{
+    border-left: 1px solid #F90;
+    border-right: 1px solid #F90;
+}
+#prodect_details_part .product_reviews .tittle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #F90;
+}
+
+#prodect_details_part .product_reviews .tittle h3{
+    color: #F90;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 6px 0 6px 18px;
+    margin-bottom: 0;
+}
+#prodect_details_part .product_reviews .tittle .extra{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    padding: 0 43px 0 39px;
+    position: relative;
+}
+#prodect_details_part .product_reviews .tittle .extra::after{
+    content: "";
+    height: 41px;
+    width: 1px;
+    background: #F90;
+    position: absolute;
+    left: 0;
+    top: -9px;
+}
+#prodect_details_part .product_reviews .tittle .extra .icon i{
+    color: #898989;
+}
+#prodect_details_part .product_reviews .tittle .extra .text p{
+    color: #898989;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#prodect_details_part .product_reviews .tittle .extra .text p span{
+    color: #B0B0B0;   
+}
+#prodect_details_part .product_reviews .one{
+   padding: 21px;
+   border-bottom: 1px solid #F90;
+}
+#prodect_details_part .product_reviews .one .full_detail{
+    display: flex; 
+    justify-content: space-between;
+}
+#prodect_details_part .product_reviews .one .full_detail .left .star_icon i{
+    color: #F90;
+    font-size: 16px;
+}
+#prodect_details_part .product_reviews .one .full_detail .left .star_icon span i{
+    color: rgba(0, 0, 0, .4);
+}
+#prodect_details_part .product_reviews .one .full_detail .left .sub_tittle {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+#prodect_details_part .product_reviews .one .full_detail .left .sub_tittle .text h6{
+    color: #000;
+    font-family: Nunito;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 5px;
+
+}
+#prodect_details_part .product_reviews .one .full_detail .left .sub_tittle .varified {
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
+#prodect_details_part .product_reviews .one .full_detail .left .sub_tittle .varified .icon i{
+    color: #0D9D01;
+    font-size: 10px;
+}
+#prodect_details_part .product_reviews .one .full_detail .left .sub_tittle .varified .text h6{
+    color: #0D9D01;
+    font-family: Nunito;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+#prodect_details_part .product_reviews .one .full_detail .left .detail p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 741px;
+    margin: 5px 0 11px;
+}
+
+#prodect_details_part .product_reviews .one .full_detail .left .images img{
+    margin: 0 11px 18px 0;
+}
+
+#prodect_details_part .product_reviews .one .full_detail .left .reaction {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+#prodect_details_part .product_reviews .one .full_detail .left .reaction .like{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+#prodect_details_part .product_reviews .one .full_detail .left .reaction .like .icon i{
+    color: #F90;
+    font-size: 13px;
+   
+}
+#prodect_details_part .product_reviews .one .full_detail .left .reaction .like .text h6{
+    color: #000;
+    font-family: Nunito;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px 0 0;
+}
+
+#prodect_details_part .product_reviews .one .full_detail .left .reaction .dislike{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+#prodect_details_part .product_reviews .one .full_detail .left .reaction .dislike .icon i{
+    color: #F90;
+    font-size: 13px;
+   
+}
+#prodect_details_part .product_reviews .one .full_detail .left .reaction .dislike .text h6{
+    color: #000;
+    font-family: Nunito;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px 0 0;
+}
+
+#prodect_details_part .product_reviews .one .full_detail .left .reaction .report{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+#prodect_details_part .product_reviews .one .full_detail .left .reaction .report .icon i{
+    color: #F90;
+    font-size: 13px;
+   
+}
+#prodect_details_part .product_reviews .one .full_detail .left .reaction .report .text h6{
+    color: #000;
+    font-family: Nunito;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px 0 0;
+}
+#prodect_details_part .product_reviews .one .full_detail .right .date p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+.btx1{
+    display: flex;
+    justify-content: center;
+}
+ .btx1 a{ 
+    padding: 18px 22px;
+    border: 1px solid #F90;
+    color: #F90;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 20px 0 20px;
+}
+#prodect_details_part .question_part{
+    border-top: 1px solid #F90;
+    border-left: 1px solid #F90;
+    border-right: 1px solid #F90;
+    border-bottom: 1px solid #F90;
+    margin-top: 20px;
+
+}
+#prodect_details_part .sm_tittle span{
+    color: #000;
+}
+#prodect_details_part .inner_part{
+    padding: 20px;
+}
+#prodect_details_part .inner_part .ask{
+    width: 945px;
+    height: 50px;
+    border: 1px solid #F90;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom: 23px;
+}
+#prodect_details_part .inner_part .ask form{
+    display: flex;
+    justify-content: space-between;
+}
+
+#prodect_details_part .inner_part .ask form button{
+    display: flex;
+    justify-content: space-between;
+    background: #F90;
+    padding: 12px 35px;
+    border: 0;
+    color: #ffffff;
+}
+#prodect_details_part .inner_part .ask form input{
+    padding-left: 21px;
+    border: 0;
+    color: #898989;
+    outline: 0;
+    width: 60%;
+
+}
+#prodect_details_part .inner_part .other h5{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#prodect_details_part .inner_part .question_box{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #F90;
+
+
+}
+
+#prodect_details_part .inner_part .question_box .left .orginal{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin: 20px 0;
+
+}
+#prodect_details_part .inner_part .question_box .left .orginal .icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background: #F90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+#prodect_details_part .inner_part .question_box .left .orginal .twxt1 h6{
+    color: #000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+#prodect_details_part .inner_part .question_box .left .orginal .text2 p{
+    color: #898989;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+#prodect_details_part .inner_part .question_box .right .date h6{
+    color: #000;
+    font-family: Nunito;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+
+/* ==================prodect_details_part end============== */
+
+
+
+#flash_sale .container .tittle a{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    background: #FF9900;
+    color: #FFFFFF;
+    padding: 10px 35px 10px 35px;
+    margin-bottom: 22px;
+}
