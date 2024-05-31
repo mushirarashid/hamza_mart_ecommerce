@@ -1,325 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
     <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            >Free Returns. Standard Shipping Orders $99+
+          </a>
 
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-              <a class="navbar-brand" href="#">Free Returns. Standard Shipping Orders $99+ </a>
+          <button
+            class="nav__btn btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
 
-              <button class="nav__btn btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars"></i></button>
-
-              <div class="offcanvas offcanvas-start faltu" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                <div class="offcanvas-header">
-                  <div class="offer">
-                    <a href=""><img src="images/LOGO 2.png" alt=""></a>
-                  </div>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 btner">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">My Account</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact  Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">My Wishlist</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Cart</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
-                      </li>
-                    </ul>
-                    <div class="country">
-                        <select name="" id="">
-                           <option value="">Country</option>
-                           <option value="BNG">BNG</option>
-                           <option value="ENG">ENG</option>
-                           <option value="USA">USA</option>
-                        </select>
-                        <select name="" id="" class="bdt">
-                           <option value="">BDT</option>
-                           <option value="BDT">BDT</option>
-                           <option value="BDT">BDT</option>
-                           <option value="BDT">BDT</option>
-                        </select>
-              
-                    </div>
-              
-                 <div class="icon">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-square-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-square-whatsapp"></i>
-              
-                 </div>
-              
-                 <div class="navber_three new__nav__three">
-                  <div class="container">
-              
-                  
-              
-                    <button class="btn btn-secondary" type="button">
-                      Home
-                    </button>
-              
-                    <div class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Categories
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </div>
-              
-                    <div class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Products
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </div>
-              
-                    <div class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Pages
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </div>
-              
-                    <button class="btn btn-secondary" type="button">
-                      Blog
-                    </button>
-              
-                    <div class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Elements
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </div>
-              
-                    <button class="btn btn-secondary" type="button">
-                      Contact Us
-                    </button>
-                    
-                  </div>
-                </div>
-                  
-                </div>
+          <div
+            class="offcanvas offcanvas-start faltu"
+            data-bs-scroll="true"
+            tabindex="-1"
+            id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel"
+          >
+            <div class="offcanvas-header">
+              <div class="offer">
+                <a href=""><img src="images/LOGO 2.png" alt="" /></a>
+              </div>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 btner">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >My Account</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My Wishlist</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cart</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./login.html">Login</a>
+                </li>
+              </ul>
+              <div class="country">
+                <select name="" id="">
+                  <option value="">Country</option>
+                  <option value="BNG">BNG</option>
+                  <option value="ENG">ENG</option>
+                  <option value="USA">USA</option>
+                </select>
+                <select name="" id="" class="bdt">
+                  <option value="">BDT</option>
+                  <option value="BDT">BDT</option>
+                  <option value="BDT">BDT</option>
+                  <option value="BDT">BDT</option>
+                </select>
               </div>
 
-
-
-
-
-
-
-
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">My Account</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact  Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">My Wishlist</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Cart</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                  </li>
-                </ul>
-                <div class="country">
-                    <select name="" id="">
-                       <option value="">Country</option>
-                       <option value="BNG">BNG</option>
-                       <option value="ENG">ENG</option>
-                       <option value="USA">USA</option>
-                    </select>
-                    <select name="" id="" class="bdt">
-                       <option value="">BDT</option>
-                       <option value="BDT">BDT</option>
-                       <option value="BDT">BDT</option>
-                       <option value="BDT">BDT</option>
-                    </select>
-
-                </div>
-
-             <div class="icon">
+              <div class="icon">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-square-twitter"></i>
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-square-whatsapp"></i>
-
-             </div>
-
               </div>
-            </div>
-          </nav>
 
+              <div class="navber_three new__nav__three">
+                <div class="container">
+                  <button class="btn btn-secondary" type="button">Home</button>
 
-          <!-- ================================================ -->
-
-          <div class="logo_part">
-            <div class="container">
-
-
-                <div class="row">
-  
-                    <div class="col-lg-3">
-                      <div class="logo">
-                        <a href=""><img src="images/LOGO 1.png" alt=""></a>  
-                      </div>
-                    </div>
-                    <div class="col-lg-2 d-lg-block d-none d-sm-block">
-                      <div class="offer">
-                        <a href=""><img src="images/LOGO 2.png" alt=""></a>
-                      </div>
-                    </div>
-
-                    
-                    <div class="col-lg-3">
-                      <form action="">
-                        <input type="text" placeholder="Search in Hamza Mart...">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </form>
-                    </div>
-                    <div class="col-lg-2">
-                      <div class="contact">
-                        <div class="phone_icon">
-                          <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div class="text">
-                          <p>Call Us Now</p>
-                          <p> <b>+880 1899999999</b></p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-2 d-lg-block d-none d-sm-block">
-                      <div class="icon">
-                        <i class="fa-solid fa-circle-user"></i>
-                        <i class="fa-solid fa-heart heart"></i>
-                        <i class="fa-solid fa-cart-shopping shopping"></i>
-                      </div>
-                    </div>
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Categories
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
                   </div>
-    
+
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Products
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Pages
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <button class="btn btn-secondary" type="button">Blog</button>
+
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Elements
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <button class="btn btn-secondary" type="button">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
 
-          <!-- ===================================================== -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >My Account</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Wishlist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html">Login</a>
+              </li>
+            </ul>
+            <div class="country">
+              <select name="" id="">
+                <option value="">Country</option>
+                <option value="BNG">BNG</option>
+                <option value="ENG">ENG</option>
+                <option value="USA">USA</option>
+              </select>
+              <select name="" id="" class="bdt">
+                <option value="">BDT</option>
+                <option value="BDT">BDT</option>
+                <option value="BDT">BDT</option>
+                <option value="BDT">BDT</option>
+              </select>
+            </div>
 
-          <div class="navber_three old">
-            <div class="container">
-
-            
-
-              <button class="btn btn-secondary" type="button">
-                Home
-              </button>
-
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categories
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </div>
-
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Products
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </div>
-
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pages
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </div>
-
-              <button class="btn btn-secondary" type="button">
-                Blog
-              </button>
-
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Elements
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </div>
-
-              <button class="btn btn-secondary" type="button">
-                Contact Us
-              </button>
-              
+            <div class="icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-square-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-square-whatsapp"></i>
             </div>
           </div>
+        </div>
+      </nav>
+
+      <!-- ================================================ -->
+
+      <div class="logo_part">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="logo">
+                <a href=""><img src="images/LOGO 1.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-lg-2 d-lg-block d-none d-sm-block">
+              <div class="offer">
+                <a href=""><img src="images/LOGO 2.png" alt="" /></a>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <form action="">
+                <input type="text" placeholder="Search in Hamza Mart..." />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </form>
+            </div>
+            <div class="col-lg-2">
+              <div class="contact">
+                <div class="phone_icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="text">
+                  <p>Call Us Now</p>
+                  <p><b>+880 1899999999</b></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 d-lg-block d-none d-sm-block">
+              <div class="icon">
+                <i class="fa-solid fa-circle-user"></i>
+                <i class="fa-solid fa-heart heart"></i>
+                <i class="fa-solid fa-cart-shopping shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===================================================== -->
+
+      <div class="navber_three old">
+        <div class="container">
+          <a href="./last_page.html">
+            <a href="./index.html">
+              <button class="btn btn-secondary" type="button">Home</button></a
+            ></a
+          >
+
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Categories
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="./electronics_page.html"
+                  >Electronics</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <a href="./allProduct_page.html">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              aria-expanded="false"
+            >
+              Products
+            </button>
+          </a>
+
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Pages
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+
+          <button class="btn btn-secondary" type="button">Blog</button>
+
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Elements
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+
+          <button class="btn btn-secondary" type="button">Contact Us</button>
+        </div>
+      </div>
     </header>
-
-
 
     <!-- ==========================banner start====================== -->
     <section id="banner_part">
@@ -333,13 +388,17 @@
                   <a href="#"><i class="fa-solid fa-shirt"></i> Fashion</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa-solid fa-chalkboard-user"></i> Electronics</a>
+                  <a href="#"
+                    ><i class="fa-solid fa-chalkboard-user"></i> Electronics</a
+                  >
                 </li>
                 <li>
                   <a href="#"><i class="fa-solid fa-gift"></i> Gifts</a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa-solid fa-house-chimney"></i> Home & Garden</a>
+                  <a href="#"
+                    ><i class="fa-solid fa-house-chimney"></i> Home & Garden</a
+                  >
                 </li>
                 <li>
                   <a href="#"><i class="fa-solid fa-music"></i> Music</a>
@@ -356,29 +415,26 @@
           </div>
 
           <div class="col-lg-9">
-
             <div class="full_banner d-lg-block d-none d-sm-block">
               <div class="banner_image">
-                <img src="images/banner-img.png" alt="">
+                <img src="images/banner-img.png" alt="" />
               </div>
 
               <div class="banner_image">
-                <img src="images/banner-img.png" alt="">
+                <img src="images/banner-img.png" alt="" />
               </div>
 
               <div class="banner_image">
-                <img src="images/banner-img.png" alt="">
+                <img src="images/banner-img.png" alt="" />
               </div>
 
               <div class="banner_image">
-                <img src="images/banner-img.png" alt="">
+                <img src="images/banner-img.png" alt="" />
               </div>
             </div>
 
-
             <div class="container ab">
               <div class="row">
-
                 <div class="col-lg-4 banner_btn col-sm-4">
                   <div class="inner_btn">
                     <i class="fa-solid fa-truck"></i>
@@ -392,7 +448,7 @@
                 <div class="col-lg-4 banner_btn col-sm-4">
                   <div class="inner_btn">
                     <i class="fa-solid fa-money-bill-wave"></i>
-                   
+
                     <div class="text">
                       <h4>MONEY BACK GUARANTEE</h4>
                       <p>100% money back guarantee.</p>
@@ -409,10 +465,8 @@
                     </div>
                   </div>
                 </div>
-                
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -426,2216 +480,2153 @@
 
           <div class="on_sale">
             <a class="now" href="#">On Sale Now</a>
-            <p>Ending in </p>
+            <p>Ending in</p>
             <span class="count" id="demo">00</span>
             <span>:</span>
-            <span  class="count" id="demo_2">00</span>
+            <span class="count" id="demo_2">00</span>
             <span>:</span>
-            <span  class="count" id="demo_3">00</span>
+            <span class="count" id="demo_3">00</span>
             <span>:</span>
             <span class="count" id="demo_4">00</span>
           </div>
 
-          <a class="shop  d-lg-block d-none d-sm-block" href="#">SHOP MORE</a>
+          <a class="shop d-lg-block d-none d-sm-block" href="#">SHOP MORE</a>
         </div>
       </div>
     </section>
     <!-- ======================================== -->
     <section id="flash_sale">
-        <div class="container">
-            
-            <div class="product_slide">
-                <div class="one">
-                    <div class="image">
-                        <img src="images/flash-1.png" alt="">
-                    </div>
-                    <div class="main_text">
-                        <p>Action Camera</p>
-                        <div class="all_icon">
-                            <div class="star_icon">
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star last"></i>
-                             <span>(2)</span>
-                             <div class="text">
-                               <p>৳15000</p>
-                               <p class="kata">৳22000</p>
-                             </div>
-                            </div>
-                            <div class="heart_icon">
-                              <i class="fa-solid fa-heart"></i>
-                            </div>
-                          </div>
-
-                        </div>
-                        <div class="off">
-                          <p>70% OFF </p>
-                        </div>
-
-                        <div class="icon">
-                            <i class="fa-solid fa-cart-plus"></i>
-                            <i class="fa-solid fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                          </div>
-                </div>
-
-
-                <div class="one">
-                    <div class="image">
-                        <img src="images/flash-2.png" alt="">
-                    </div>
-                    <div class="main_text">
-                        <p>3D Printer</p>
-                        <div class="all_icon">
-                            <div class="star_icon">
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star last"></i>
-                             <span>(25)</span>
-                             <div class="text">
-                               <p>৳33000</p>
-                               <p class="kata">৳41000</p>
-                             </div>
-                            </div>
-                            <div class="heart_icon">
-                              <i class="fa-solid fa-heart"></i>
-                            </div>
-                          </div>
-
-                        </div>
-                        <div class="off">
-                          <p>30% OFF </p>
-                        </div>
-
-                        <div class="icon">
-                            <i class="fa-solid fa-cart-plus"></i>
-                            <i class="fa-solid fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                          </div>
-                </div>
-
-
-                <div class="one">
-                    <div class="image">
-                        <img src="images/flash3.png" alt="">
-                    </div>
-                    <div class="main_text">
-                        <p>Smart Watch</p>
-                        <div class="all_icon">
-                            <div class="star_icon">
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star last"></i>
-                             <span>(155)</span>
-                             <div class="text">
-                               <p>৳1000</p>
-                               <p class="kata">৳25000</p>
-                             </div>
-                            </div>
-                            <div class="heart_icon">
-                              <i class="fa-solid fa-heart"></i>
-                            </div>
-                          </div>
-
-                        </div>
-
-                        <div class="icon">
-                            <i class="fa-solid fa-cart-plus"></i>
-                            <i class="fa-solid fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                          </div>
-                </div>
-
-                <div class="one">
-                    <div class="image">
-                        <img src="images/flash-4.png" alt="">
-                    </div>
-                    <div class="main_text">
-                        <p>Palm Print Shirt</p>
-                        <div class="all_icon">
-                            <div class="star_icon">
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star last"></i>
-                             <span>(25)</span>
-                             <div class="text">
-                               <p>৳600</p>
-                               <p class="kata">৳2000</p>
-                             </div>
-                            </div>
-                            <div class="heart_icon">
-                              <i class="fa-solid fa-heart"></i>
-                            </div>
-                          </div>
-
-                        </div>
-
-                        <div class="icon">
-                            <i class="fa-solid fa-cart-plus"></i>
-                            <i class="fa-solid fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                          </div>
-                </div>
-
-
-                <div class="one">
-                    <div class="image">
-                        <img src="images/flash-5.png" alt="">
-                    </div>
-                    <div class="main_text">
-                        <p>Cuffed Chino Shorts</p>
-                        <div class="all_icon">
-                            <div class="star_icon">
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star last"></i>
-                             <span>(235)</span>
-                             <div class="text">
-                               <p>৳1000</p>
-                               <p class="kata">৳1100</p>
-                             </div>
-                            </div>
-                            <div class="heart_icon">
-                              <i class="fa-solid fa-heart"></i>
-                            </div>
-                          </div>
-
-                        </div>
-                        <div class="off">
-                          <p>10% OFF </p>
-                        </div>
-
-                        <div class="icon">
-                            <i class="fa-solid fa-cart-plus"></i>
-                            <i class="fa-solid fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                          </div>
-                </div>
-
-
-                <div class="one">
-                    <div class="image">
-                        <img src="images/flash-6.png" alt="">
-                    </div>
-                    <div class="main_text">
-                        <p>PT Bags</p>
-                        <div class="all_icon">
-                            <div class="star_icon">
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star"></i>
-                             <i class="fa-solid fa-star last"></i>
-                             <span>(25)</span>
-                             <div class="text">
-                               <p>৳1399</p>
-                               <p class="kata">৳2800</p>
-                             </div>
-                            </div>
-                            <div class="heart_icon">
-                              <i class="fa-solid fa-heart"></i>
-                            </div>
-                          </div>
-
-                        </div>
-                        <div class="off">
-                          <p>50% OFF </p>
-                        </div>
-
-                        <div class="icon">
-                            <i class="fa-solid fa-cart-plus"></i>
-                            <i class="fa-solid fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                          </div>
-                </div>
-
-
-                <div class="one">
-                  <div class="image">
-                      <img src="images/flash-1.png" alt="">
+      <div class="container">
+        <div class="product_slide">
+          <div class="one">
+            <div class="image">
+              <img src="images/flash-1.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>Action Camera</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(2)</span>
+                  <div class="text">
+                    <p>৳15000</p>
+                    <p class="kata">৳22000</p>
                   </div>
-                  <div class="main_text">
-                      <p>Action Camera</p>
-                      <div class="all_icon">
-                          <div class="star_icon">
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star last"></i>
-                           <span>(2)</span>
-                           <div class="text">
-                             <p>৳15000</p>
-                             <p class="kata">৳22000</p>
-                           </div>
-                          </div>
-                          <div class="heart_icon">
-                            <i class="fa-solid fa-heart"></i>
-                          </div>
-                        </div>
-
-                      </div>
-                      <div class="off">
-                        <p>70% OFF </p>
-                      </div>
-
-                      <div class="icon">
-                          <i class="fa-solid fa-cart-plus"></i>
-                          <i class="fa-solid fa-eye"></i>
-                          <i class="fa-solid fa-share"></i>
-                        </div>
-              </div>
-
-
-              <div class="one">
-                  <div class="image">
-                      <img src="images/flash-2.png" alt="">
-                  </div>
-                  <div class="main_text">
-                      <p>3D Printer</p>
-                      <div class="all_icon">
-                          <div class="star_icon">
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star last"></i>
-                           <span>(25)</span>
-                           <div class="text">
-                             <p>৳33000</p>
-                             <p class="kata">৳41000</p>
-                           </div>
-                          </div>
-                          <div class="heart_icon">
-                            <i class="fa-solid fa-heart"></i>
-                          </div>
-                        </div>
-
-                      </div>
-                      <div class="off">
-                        <p>30% OFF </p>
-                      </div>
-
-                      <div class="icon">
-                          <i class="fa-solid fa-cart-plus"></i>
-                          <i class="fa-solid fa-eye"></i>
-                          <i class="fa-solid fa-share"></i>
-                        </div>
-              </div>
-
-
-              <div class="one">
-                  <div class="image">
-                      <img src="images/flash3.png" alt="">
-                  </div>
-                  <div class="main_text">
-                      <p>Smart Watch</p>
-                      <div class="all_icon">
-                          <div class="star_icon">
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star last"></i>
-                           <span>(155)</span>
-                           <div class="text">
-                             <p>৳1000</p>
-                             <p class="kata">৳25000</p>
-                           </div>
-                          </div>
-                          <div class="heart_icon">
-                            <i class="fa-solid fa-heart"></i>
-                          </div>
-                        </div>
-
-                      </div>
-
-                      <div class="icon">
-                          <i class="fa-solid fa-cart-plus"></i>
-                          <i class="fa-solid fa-eye"></i>
-                          <i class="fa-solid fa-share"></i>
-                        </div>
-              </div>
-
-              <div class="one">
-                  <div class="image">
-                      <img src="images/flash-4.png" alt="">
-                  </div>
-                  <div class="main_text">
-                      <p>Palm Print Shirt</p>
-                      <div class="all_icon">
-                          <div class="star_icon">
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star last"></i>
-                           <span>(25)</span>
-                           <div class="text">
-                             <p>৳600</p>
-                             <p class="kata">৳2000</p>
-                           </div>
-                          </div>
-                          <div class="heart_icon">
-                            <i class="fa-solid fa-heart"></i>
-                          </div>
-                        </div>
-
-                      </div>
-
-                      <div class="icon">
-                          <i class="fa-solid fa-cart-plus"></i>
-                          <i class="fa-solid fa-eye"></i>
-                          <i class="fa-solid fa-share"></i>
-                        </div>
-              </div>
-
-
-              <div class="one">
-                  <div class="image">
-                      <img src="images/flash-5.png" alt="">
-                  </div>
-                  <div class="main_text">
-                      <p>Cuffed Chino Shorts</p>
-                      <div class="all_icon">
-                          <div class="star_icon">
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star last"></i>
-                           <span>(235)</span>
-                           <div class="text">
-                             <p>৳1000</p>
-                             <p class="kata">৳1100</p>
-                           </div>
-                          </div>
-                          <div class="heart_icon">
-                            <i class="fa-solid fa-heart"></i>
-                          </div>
-                        </div>
-
-                      </div>
-                      <div class="off">
-                        <p>10% OFF </p>
-                      </div>
-
-                      <div class="icon">
-                          <i class="fa-solid fa-cart-plus"></i>
-                          <i class="fa-solid fa-eye"></i>
-                          <i class="fa-solid fa-share"></i>
-                        </div>
-              </div>
-
-
-              <div class="one">
-                  <div class="image">
-                      <img src="images/flash-6.png" alt="">
-                  </div>
-                  <div class="main_text">
-                      <p>PT Bags</p>
-                      <div class="all_icon">
-                          <div class="star_icon">
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star last"></i>
-                           <span>(25)</span>
-                           <div class="text">
-                             <p>৳1399</p>
-                             <p class="kata">৳2800</p>
-                           </div>
-                          </div>
-                          <div class="heart_icon">
-                            <i class="fa-solid fa-heart"></i>
-                          </div>
-                        </div>
-
-                      </div>
-                      <div class="off">
-                        <p>50% OFF </p>
-                      </div>
-
-                      <div class="icon">
-                          <i class="fa-solid fa-cart-plus"></i>
-                          <i class="fa-solid fa-eye"></i>
-                          <i class="fa-solid fa-share"></i>
-                        </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
               </div>
             </div>
+            <div class="off">
+              <p>70% OFF</p>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash-2.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>3D Printer</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(25)</span>
+                  <div class="text">
+                    <p>৳33000</p>
+                    <p class="kata">৳41000</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="off">
+              <p>30% OFF</p>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash3.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>Smart Watch</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(155)</span>
+                  <div class="text">
+                    <p>৳1000</p>
+                    <p class="kata">৳25000</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash-4.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>Palm Print Shirt</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(25)</span>
+                  <div class="text">
+                    <p>৳600</p>
+                    <p class="kata">৳2000</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash-5.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>Cuffed Chino Shorts</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(235)</span>
+                  <div class="text">
+                    <p>৳1000</p>
+                    <p class="kata">৳1100</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="off">
+              <p>10% OFF</p>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash-6.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>PT Bags</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(25)</span>
+                  <div class="text">
+                    <p>৳1399</p>
+                    <p class="kata">৳2800</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="off">
+              <p>50% OFF</p>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash-1.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>Action Camera</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(2)</span>
+                  <div class="text">
+                    <p>৳15000</p>
+                    <p class="kata">৳22000</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="off">
+              <p>70% OFF</p>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash-2.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>3D Printer</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(25)</span>
+                  <div class="text">
+                    <p>৳33000</p>
+                    <p class="kata">৳41000</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="off">
+              <p>30% OFF</p>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash3.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>Smart Watch</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(155)</span>
+                  <div class="text">
+                    <p>৳1000</p>
+                    <p class="kata">৳25000</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash-4.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>Palm Print Shirt</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(25)</span>
+                  <div class="text">
+                    <p>৳600</p>
+                    <p class="kata">৳2000</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash-5.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>Cuffed Chino Shorts</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(235)</span>
+                  <div class="text">
+                    <p>৳1000</p>
+                    <p class="kata">৳1100</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="off">
+              <p>10% OFF</p>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
+
+          <div class="one">
+            <div class="image">
+              <img src="images/flash-6.png" alt="" />
+            </div>
+            <div class="main_text">
+              <p>PT Bags</p>
+              <div class="all_icon">
+                <div class="star_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star last"></i>
+                  <span>(25)</span>
+                  <div class="text">
+                    <p>৳1399</p>
+                    <p class="kata">৳2800</p>
+                  </div>
+                </div>
+                <div class="heart_icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="off">
+              <p>50% OFF</p>
+            </div>
+
+            <div class="icon">
+              <i class="fa-solid fa-cart-plus"></i>
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-<!-- ================================================== -->
+    <!-- ================================================== -->
     <section id="featured">
       <div class="container">
-      <div class="tittle">
-        <a href="#">Featured Products</a>
-      </div>
+        <div class="tittle">
+          <a href="#">Featured Products</a>
+        </div>
 
-      <div class="row">
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-1.png" alt="">
-            </div>
-            <div class="main_text">
+        <div class="row">
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-1.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
-                </div>
-                <div class="off">
-                  <p>New </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
                   </div>
-        </div>
-        </div>
+                </div>
+              </div>
+              <div class="off">
+                <p>New</p>
+              </div>
 
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-2.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-2.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
                 </div>
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-3.png" alt="">
+              </div>
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-3.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
                 </div>
+              </div>
 
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-4.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-4.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
                 </div>
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-5.png" alt="">
+              </div>
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-5.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
-                </div>
-                <div class="off">
-                  <p>10% OFF </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
                   </div>
-        </div>
-        </div>
+                </div>
+              </div>
+              <div class="off">
+                <p>10% OFF</p>
+              </div>
 
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-6.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-6.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
-                </div>
-                <div class="off">
-                  <p>50% OFF </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
                   </div>
-        </div>
-        </div>
+                </div>
+              </div>
+              <div class="off">
+                <p>50% OFF</p>
+              </div>
 
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-7.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-7.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
-                </div>
-                <div class="off">
-                  <p>New </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
                   </div>
-        </div>
-        </div>
+                </div>
+              </div>
+              <div class="off">
+                <p>New</p>
+              </div>
 
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-8.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-8.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
-                </div>
-                <div class="off">
-                  <p>30% OFF </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
                   </div>
-        </div>
-        </div>
+                </div>
+              </div>
+              <div class="off">
+                <p>30% OFF</p>
+              </div>
 
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-9.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-9.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
                 </div>
+              </div>
 
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-10.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-10.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
                 </div>
+              </div>
 
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-11.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-11.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
-                </div>
-                <div class="off">
-                  <p>10% OFF </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
                   </div>
-        </div>
-        </div>
+                </div>
+              </div>
+              <div class="off">
+                <p>10% OFF</p>
+              </div>
 
-        <div class="col-lg-2 col-6">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-12.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
             </div>
-            <div class="main_text">
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/featured-12.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
+                  <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
                     </div>
                   </div>
-
-                </div>
-                <div class="off">
-                  <p>50% OFF </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
+                  <div class="heart_icon">
+                    <i class="fa-solid fa-heart"></i>
                   </div>
+                </div>
+              </div>
+              <div class="off">
+                <p>50% OFF</p>
+              </div>
+
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="butn">
+          <a href="#">LOAD MORE</a>
         </div>
       </div>
-      <div class="butn">
-        <a href="#">LOAD MORE</a>
-      </div>
-
-      </div>
-
     </section>
-<!-- ================================================== -->
+    <!-- ================================================== -->
 
-<!-- =======================categories start======================== -->
-<section id="categories_part">
-  <div class="container">
-    <div class="tittle">
-      <a href="#">Categories</a>
-    </div>
-    <div class="row">
+    <!-- =======================categories start======================== -->
+    <section id="categories_part">
+      <div class="container">
+        <div class="tittle">
+          <a href="#">Categories</a>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-1.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
 
-      <div class="col-lg-2 col-6">
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-2.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories3.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-4.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-5.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-6.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-7.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-8.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-9.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-10.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-11.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <div class="image">
+                <img src="images/Categories-12.png" alt="" />
+              </div>
+              <div class="text">
+                <p>Computer Accessories</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="butn">
+          <a href="#">LOAD MORE</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================categories end====================== -->
+
+    <!-- ====================SUBSCRIBE_PART START====================== -->
+    <section id="subscribe_part">
+      <div class="container">
         <div class="box">
-          <div class="image">
-            <img src="images/Categories-1.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories-2.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories3.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories-4.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories-5.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories-6.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories-7.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories-8.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories-9.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories-10.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories-11.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <div class="image">
-            <img src="images/Categories-12.png" alt="">
-          </div>
-          <div class="text">
-            <p>Computer Accessories</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="butn">
-      <a href="#">LOAD MORE</a>
-    </div>
-  </div>
-
-</section>
-
-<!-- ============================categories end====================== -->
-
-<!-- ====================SUBSCRIBE_PART START====================== -->
-<section id="subscribe_part">
-  <div class="container">
-    <div class="box">
-      <div class="left">
-        <div class="text">
-          <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
-          <p>Get all the latest information on events, sales and offers.
-            Sign up for newsletter.</p>
-            <form action="">
-              <input type="text" placeholder="Email Address...">
-              <button type="submit">Subscribe</button>
-            </form>
-        </div>
-      </div>
-      <div class="right">
-        <div class="image">
-          <img src="images/SUBSCRIBE.jpg" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- ====================SUBSCRIBE_PART END====================== -->
-<!-- =======================Rated_part start======================== -->
-<section id="rated_part">
-  <div class="container">
-    <div class="tittle">
-      <a href="#">Top Rated Product</a>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-6">
-        <div class="one">
           <div class="left">
             <div class="text">
-              <h4>Smart Headphone</h4>
-              <p>10% OFF</p>
-            </div>
-            <div class="icon">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <span><i class="fa-solid fa-star"></i></span>
+              <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
+              <p>
+                Get all the latest information on events, sales and offers. Sign
+                up for newsletter.
+              </p>
+              <form action="">
+                <input type="text" placeholder="Email Address..." />
+                <button type="submit">Subscribe</button>
+              </form>
             </div>
           </div>
           <div class="right">
             <div class="image">
-              <img src="images/rated-1.png" alt="">
+              <img src="images/SUBSCRIBE.jpg" alt="" />
             </div>
           </div>
         </div>
       </div>
-      
-      <div class="col-lg-4 col-6">
-        <div class="one">
-          <div class="left">
-            <div class="text">
-              <h4>DSLR Camera</h4>
-              <p>10% OFF</p>
+    </section>
+    <!-- ====================SUBSCRIBE_PART END====================== -->
+    <!-- =======================Rated_part start======================== -->
+    <section id="rated_part">
+      <div class="container">
+        <div class="tittle">
+          <a href="#">Top Rated Product</a>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-6">
+            <div class="one">
+              <div class="left">
+                <div class="text">
+                  <h4>Smart Headphone</h4>
+                  <p>10% OFF</p>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <div class="right">
+                <div class="image">
+                  <img src="images/rated-1.png" alt="" />
+                </div>
+              </div>
             </div>
-            <div class="icon">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <span><i class="fa-solid fa-star"></i></span>
+          </div>
+
+          <div class="col-lg-4 col-6">
+            <div class="one">
+              <div class="left">
+                <div class="text">
+                  <h4>DSLR Camera</h4>
+                  <p>10% OFF</p>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <div class="right">
+                <div class="image">
+                  <img src="images/rated-2.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-6">
+            <div class="one">
+              <div class="left">
+                <div class="text">
+                  <h4>Hiking Shoes</h4>
+                  <p>15% OFF</p>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <div class="right">
+                <div class="image">
+                  <img src="images/rated-3.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-6">
+            <div class="one">
+              <div class="left">
+                <div class="text">
+                  <h4>Blue High Hill</h4>
+                  <p>5% OFF</p>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <div class="right">
+                <div class="image">
+                  <img src="images/rated-4.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-6">
+            <div class="one">
+              <div class="left">
+                <div class="text">
+                  <h4>Blue Casual Shoe</h4>
+                  <p>20% OFF</p>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <div class="right">
+                <div class="image">
+                  <img src="images/rated-5.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-6">
+            <div class="one">
+              <div class="left">
+                <div class="text">
+                  <h4>JBL Speaker</h4>
+                  <p>2% OFF</p>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <div class="right">
+                <div class="image">
+                  <img src="images/rated-6.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================Rated_part end======================== -->
+
+    <!-- ======================Best_part start ==================-->
+    <section id="best_part">
+      <div class="container">
+        <div class="tittle">
+          <a href="#">Best Selling Product</a>
+        </div>
+        <div class="row">
+          <div class="best_slider">
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-1.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="off">
+                  <p>New</p>
+                </div>
+
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-2.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-3.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-4.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-5.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="off">
+                  <p>10% OFF</p>
+                </div>
+
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-6.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="off">
+                  <p>50% OFF</p>
+                </div>
+
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-1.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="off">
+                  <p>New</p>
+                </div>
+
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-2.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-3.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-4.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-5.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="off">
+                  <p>10% OFF</p>
+                </div>
+
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="one">
+                <div class="image">
+                  <img src="images/featured-6.png" alt="" />
+                </div>
+                <div class="main_text">
+                  <p>Action Camera</p>
+                  <div class="all_icon">
+                    <div class="star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star last"></i>
+                      <span>(2)</span>
+                      <div class="text">
+                        <p>৳15000</p>
+                        <p class="kata">৳22000</p>
+                      </div>
+                    </div>
+                    <div class="heart_icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="off">
+                  <p>50% OFF</p>
+                </div>
+
+                <div class="icon">
+                  <i class="fa-solid fa-cart-plus"></i>
+                  <i class="fa-solid fa-eye"></i>
+                  <i class="fa-solid fa-share"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================Best_part end ==================-->
+
+    <!-- =================phon_part start================= -->
+    <section id="phon_part">
+      <div class="container">
+        <div class="box">
+          <div class="left">
+            <div class="image">
+              <img src="images/iphone-14 1.png" alt="" />
             </div>
           </div>
           <div class="right">
-            <div class="image">
-              <img src="images/rated-2.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-6">
-        <div class="one">
-          <div class="left">
             <div class="text">
-              <h4>Hiking Shoes</h4>
-              <p>15% OFF</p>
-            </div>
-            <div class="icon">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <span><i class="fa-solid fa-star"></i></span>
-            </div>
-          </div>
-          <div class="right">
-            <div class="image">
-              <img src="images/rated-3.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
+              <h6>Upcoming Product</h6>
+              <h4>I PHONE 14 PRO MAX</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets of
+                Lorem I
+              </p>
 
-      <div class="col-lg-4 col-6">
-        <div class="one">
-          <div class="left">
-            <div class="text">
-              <h4>Blue High Hill</h4>
-              <p>5% OFF</p>
-            </div>
-            <div class="icon">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <span><i class="fa-solid fa-star"></i></span>
-            </div>
-          </div>
-          <div class="right">
-            <div class="image">
-              <img src="images/rated-4.png" alt="">
+              <div class="all_counte">
+                <span class="count" id="demo_5">00</span>
+                <span class="fota">:</span>
+                <span class="count" id="demo_6">00</span>
+                <span class="fota">:</span>
+                <span class="count" id="demo_7">00</span>
+                <span class="fota">:</span>
+                <span class="count" id="demo_8">00</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="col-lg-4 col-6">
-        <div class="one">
-          <div class="left">
-            <div class="text">
-              <h4>Blue Casual Shoe</h4>
-              <p>20% OFF</p>
-            </div>
-            <div class="icon">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <span><i class="fa-solid fa-star"></i></span>
-            </div>
-          </div>
-          <div class="right">
-            <div class="image">
-              <img src="images/rated-5.png" alt="">
-            </div>
-          </div>
+    </section>
+    <!-- =================phon_part end================= -->
+    <!-- ================Latest start=================== -->
+    <section id="latest_part">
+      <div class="container">
+        <div class="tittle">
+          <a href="#">Latest Products</a>
         </div>
-      </div>
 
-      <div class="col-lg-4 col-6">
-        <div class="one">
-          <div class="left">
-            <div class="text">
-              <h4>JBL Speaker</h4>
-              <p>2% OFF</p>
-            </div>
-            <div class="icon">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <span><i class="fa-solid fa-star"></i></span>
-            </div>
-          </div>
-          <div class="right">
-            <div class="image">
-              <img src="images/rated-6.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- =======================Rated_part end======================== -->
-
-<!-- ======================Best_part start ==================-->
-<section id="best_part">
-  <div class="container">
-    <div class="tittle">
-      <a href="#">Best Selling Product</a>
-    </div>
-    <div class="row">
-      <div class="best_slider">
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-1.png" alt="">
-            </div>
-            <div class="main_text">
+        <div class="row">
+          <div class="col-lg-2 col-6">
+            <div class="jamela">
+              <div class="image">
+                <img src="images/Latest-1.png" alt="" />
+              </div>
+              <div class="main_text">
                 <p>Action Camera</p>
                 <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="off">
-                  <p>New </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-2.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-3.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-4.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-5.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="off">
-                  <p>10% OFF </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-6.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="off">
-                  <p>50% OFF </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-1.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="off">
-                  <p>New </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-2.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-3.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-4.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-5.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="off">
-                  <p>10% OFF </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="one">
-            <div class="image">
-                <img src="images/featured-6.png" alt="">
-            </div>
-            <div class="main_text">
-                <p>Action Camera</p>
-                <div class="all_icon">
-                    <div class="star_icon">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star last"></i>
-                     <span>(2)</span>
-                     <div class="text">
-                       <p>৳15000</p>
-                       <p class="kata">৳22000</p>
-                     </div>
-                    </div>
-                    <div class="heart_icon">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="off">
-                  <p>50% OFF </p>
-                </div>
-
-                <div class="icon">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <i class="fa-solid fa-eye"></i>
-                    <i class="fa-solid fa-share"></i>
-                  </div>
-        </div>
-        </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======================Best_part end ==================-->
-
-<!-- =================phon_part start================= -->
-<section id="phon_part">
-  <div class="container">
-    <div class="box">
-      <div class="left">
-        <div class="image">
-          <img src="images/iphone-14 1.png" alt="">
-        </div>
-      </div>
-      <div class="right">
-        <div class="text">
-          <h6>Upcoming Product</h6>
-          <h4>I PHONE 14 PRO MAX</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets  of Lorem I</p>
-
-          <div class="all_counte">
-            <span class="count" id="demo_5">00</span>
-            <span class="fota">:</span>
-            <span  class="count" id="demo_6">00</span>
-            <span class="fota">:</span>
-            <span  class="count" id="demo_7">00</span>
-            <span class="fota">:</span>
-            <span class="count" id="demo_8">00</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- =================phon_part end================= -->
-<!-- ================Latest start=================== -->
-<section id="latest_part">
-  <div class="container">
-    <div class="tittle">
-      <a href="#">Latest Products</a>
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-2 col-6">
-        <div class=" jamela">
-          <div class="image">
-              <img src="images/Latest-1.png" alt="">
-          </div>
-          <div class="main_text">
-              <p>Action Camera</p>
-              <div class="all_icon">
                   <div class="star_icon">
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star last"></i>
-                   <span>(2)</span>
-                   <div class="text">
-                     <p>৳15000</p>
-                   </div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                    </div>
                   </div>
                   <div class="heart_icon">
                     <i class="fa-solid fa-heart"></i>
                   </div>
                 </div>
-  
               </div>
               <div class="off">
-                <p>50% OFF </p>
+                <p>50% OFF</p>
               </div>
-  
-              <div class="icon">
-                  <i class="fa-solid fa-cart-plus"></i>
-                  <i class="fa-solid fa-eye"></i>
-                  <i class="fa-solid fa-share"></i>
-                </div>
-      </div>
-      </div>
 
-      <div class="col-lg-2 col-6">
-        <div class="one">
-          <div class="image">
-              <img src="images/Latest-2.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
+            </div>
           </div>
-          <div class="main_text">
-              <p>Action Camera</p>
-              <div class="all_icon">
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/Latest-2.png" alt="" />
+              </div>
+              <div class="main_text">
+                <p>Action Camera</p>
+                <div class="all_icon">
                   <div class="star_icon">
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star last"></i>
-                   <span>(2)</span>
-                   <div class="text">
-                     <p>৳15000</p>
-                     <p class="kata">৳22000</p>
-                   </div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
+                    </div>
                   </div>
                   <div class="heart_icon">
                     <i class="fa-solid fa-heart"></i>
                   </div>
                 </div>
-  
               </div>
               <div class="off">
-                <p>50% OFF </p>
+                <p>50% OFF</p>
               </div>
-  
-              <div class="icon">
-                  <i class="fa-solid fa-cart-plus"></i>
-                  <i class="fa-solid fa-eye"></i>
-                  <i class="fa-solid fa-share"></i>
-                </div>
-      </div>
-      </div>
 
-      <div class="col-lg-2 col-6">
-        <div class="one">
-          <div class="image">
-              <img src="images/Latest-3.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
+            </div>
           </div>
-          <div class="main_text">
-              <p>Action Camera</p>
-              <div class="all_icon">
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/Latest-3.png" alt="" />
+              </div>
+              <div class="main_text">
+                <p>Action Camera</p>
+                <div class="all_icon">
                   <div class="star_icon">
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star last"></i>
-                   <span>(2)</span>
-                   <div class="text">
-                     <p>৳15000</p>
-                     <p class="kata">৳22000</p>
-                   </div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
+                    </div>
                   </div>
                   <div class="heart_icon">
                     <i class="fa-solid fa-heart"></i>
                   </div>
                 </div>
-  
               </div>
               <div class="off">
-                <p>50% OFF </p>
+                <p>50% OFF</p>
               </div>
-  
-              <div class="icon">
-                  <i class="fa-solid fa-cart-plus"></i>
-                  <i class="fa-solid fa-eye"></i>
-                  <i class="fa-solid fa-share"></i>
-                </div>
-      </div>
-      </div>
 
-      <div class="col-lg-2 col-6">
-        <div class="one">
-          <div class="image">
-              <img src="images/Latest-4.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
+            </div>
           </div>
-          <div class="main_text">
-              <p>Action Camera</p>
-              <div class="all_icon">
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/Latest-4.png" alt="" />
+              </div>
+              <div class="main_text">
+                <p>Action Camera</p>
+                <div class="all_icon">
                   <div class="star_icon">
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star last"></i>
-                   <span>(2)</span>
-                   <div class="text">
-                     <p>৳15000</p>
-                     <p class="kata">৳22000</p>
-                   </div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
+                    </div>
                   </div>
                   <div class="heart_icon">
                     <i class="fa-solid fa-heart"></i>
                   </div>
                 </div>
-  
               </div>
               <div class="off">
-                <p>50% OFF </p>
+                <p>50% OFF</p>
               </div>
-  
-              <div class="icon">
-                  <i class="fa-solid fa-cart-plus"></i>
-                  <i class="fa-solid fa-eye"></i>
-                  <i class="fa-solid fa-share"></i>
-                </div>
-      </div>
-      </div>
 
-      <div class="col-lg-2 col-6">
-        <div class="one">
-          <div class="image">
-              <img src="images/Latest-5.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
+            </div>
           </div>
-          <div class="main_text">
-              <p>Action Camera</p>
-              <div class="all_icon">
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/Latest-5.png" alt="" />
+              </div>
+              <div class="main_text">
+                <p>Action Camera</p>
+                <div class="all_icon">
                   <div class="star_icon">
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star last"></i>
-                   <span>(2)</span>
-                   <div class="text">
-                     <p>৳15000</p>
-                     <p class="kata">৳22000</p>
-                   </div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
+                    </div>
                   </div>
                   <div class="heart_icon">
                     <i class="fa-solid fa-heart"></i>
                   </div>
                 </div>
-  
               </div>
               <div class="off">
-                <p>50% OFF </p>
+                <p>50% OFF</p>
               </div>
-  
-              <div class="icon">
-                  <i class="fa-solid fa-cart-plus"></i>
-                  <i class="fa-solid fa-eye"></i>
-                  <i class="fa-solid fa-share"></i>
-                </div>
-      </div>
-      </div>
 
-      <div class="col-lg-2 col-6">
-        <div class="one">
-          <div class="image">
-              <img src="images/Latest-6.png" alt="">
+              <div class="icon">
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
+            </div>
           </div>
-          <div class="main_text">
-              <p>Action Camera</p>
-              <div class="all_icon">
+
+          <div class="col-lg-2 col-6">
+            <div class="one">
+              <div class="image">
+                <img src="images/Latest-6.png" alt="" />
+              </div>
+              <div class="main_text">
+                <p>Action Camera</p>
+                <div class="all_icon">
                   <div class="star_icon">
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star last"></i>
-                   <span>(2)</span>
-                   <div class="text">
-                     <p>৳15000</p>
-                     <p class="kata">৳22000</p>
-                   </div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star last"></i>
+                    <span>(2)</span>
+                    <div class="text">
+                      <p>৳15000</p>
+                      <p class="kata">৳22000</p>
+                    </div>
                   </div>
                   <div class="heart_icon">
                     <i class="fa-solid fa-heart"></i>
                   </div>
                 </div>
-  
               </div>
               <div class="off">
-                <p>50% OFF </p>
+                <p>50% OFF</p>
               </div>
-  
+
               <div class="icon">
-                  <i class="fa-solid fa-cart-plus"></i>
-                  <i class="fa-solid fa-eye"></i>
-                  <i class="fa-solid fa-share"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="butn">
+          <a href="#">LOAD MORE</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================Latest end=================== -->
+
+    <!-- ===============Brands staet================== -->
+    <section id="brands_part">
+      <div class="container">
+        <div class="tittle">
+          <a href="#"> Brands</a>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-2.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-3.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-4.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-5.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-6.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-7.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-8.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-9.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-10.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-11.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="box">
+              <img src="images/Brands-12.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="butn">
+          <a href="#">LOAD MORE</a>
+        </div>
+      </div>
+    </section>
+    <!-- ===============Brands end================== -->
+    <!-- ==============footer_part start================== -->
+    <section id="footer_part">
+      <div class="container">
+        <div class="detail">
+          <div class="row">
+            <div class="col-lg-3 col-6">
+              <div class="contact">
+                <div class="tittle">
+                  <h4>CONTACT INFO</h4>
                 </div>
-      </div>
-      </div>
+                <div class="address">
+                  <h6>ADDRESS</h6>
+                  <p>Mohammadpur,Dhaka-1207,Bangladesh</p>
+                </div>
+                <div class="phone">
+                  <h6>PHONE</h6>
+                  <p>+880 1827564839</p>
+                </div>
+                <div class="email">
+                  <h6>EMAIL</h6>
+                  <p>hamza.mart@gmail.com</p>
+                </div>
+                <div class="day">
+                  <h6>WORKING DAYS/HOURS</h6>
+                  <p>Mon - Sun / 9:00 AM - 8:00 PM</p>
+                </div>
 
-    </div>
-
-    <div class="butn">
-      <a href="#">LOAD MORE</a>
-    </div>
-  </div>
-</section>
-
-<!-- ================Latest end=================== -->
-
-<!-- ===============Brands staet================== -->
-<section id="brands_part">
-  <div class="container">
-    <div class="tittle">
-      <a href="#"> Brands</a>
-    </div>
-    <div class="row">
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-1.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-2.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-3.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-4.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-5.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-6.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-7.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-8.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-9.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-10.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-11.png" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-6">
-        <div class="box">
-          <img src="images/Brands-12.png" alt="">
-        </div>
-      </div>
-    </div>
-
-    <div class="butn">
-      <a href="#">LOAD MORE</a>
-    </div>
-  </div>
-</section>
-<!-- ===============Brands end================== -->
-<!-- ==============footer_part start================== -->
-<section id="footer_part">
-  <div class="container">
-    <div class="detail">
-
-      <div class="row">
-        <div class="col-lg-3 col-6">
-          <div class="contact">
-            <div class="tittle">
-              <h4>CONTACT INFO</h4>
-            </div>
-            <div class="address">
-              <h6>ADDRESS</h6>
-              <p>Mohammadpur,Dhaka-1207,Bangladesh</p>
-            </div>
-            <div class="phone">
-              <h6>PHONE</h6>
-              <p>+880 1827564839</p>
-            </div>
-            <div class="email">
-              <h6>EMAIL</h6>
-              <p>hamza.mart@gmail.com</p>
-            </div>
-            <div class="day">
-              <h6>WORKING DAYS/HOURS</h6>
-              <p>Mon - Sun / 9:00 AM - 8:00 PM</p>
-            </div>
-  
-              <div class="icon">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-youtube"></i>
-              </div>
-          </div>
-        </div>
-  
-  
-  
-        <div class="col-lg-3 col-6">
-          <div class="costomer">
-            <div class="tittle">
-              <h4>CONTACT INFO</h4>
-            </div>
-            <div class="text">
-              <p>Help & FAQs</p>
-              <p>Order Tracking</p>
-              <p>Shipping & Delivery</p>
-              <p>Orders History</p>
-              <p>Advanced Search</p>
-              <p>Careers</p>
-              <p>My Account</p>
-              <p>Corporate Sales</p>
-              <p>About Us</p>
-              <p>Privacy</p>
-  
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-6">
-          <div class="popular">
-            <div class="tittle">
-              <h4>POPULAR TAGS</h4>
-            </div>
-            <div class="line">
-              <div class="box">
-                <a href="#">Bag</a>
-                <a href="#">Black</a>
-                <a href="#">Cloths</a>
+                <div class="icon">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
               </div>
             </div>
-  
-            <div class="line">
-              <div class="box">
-                <a href="#">Fashion</a>
-                <a href="#">Sweater</a>
-                <a href="#">Shoes</a>
+
+            <div class="col-lg-3 col-6">
+              <div class="costomer">
+                <div class="tittle">
+                  <h4>CONTACT INFO</h4>
+                </div>
+                <div class="text">
+                  <p>Help & FAQs</p>
+                  <p>Order Tracking</p>
+                  <p>Shipping & Delivery</p>
+                  <p>Orders History</p>
+                  <p>Advanced Search</p>
+                  <p>Careers</p>
+                  <p>My Account</p>
+                  <p>Corporate Sales</p>
+                  <p>About Us</p>
+                  <p>Privacy</p>
+                </div>
               </div>
             </div>
-  
-            <div class="line">
-              <div class="box">
-                <a href="#">Bag</a>
-                <a href="#">Black</a>
-                <a href="#">Cloths</a>
+            <div class="col-lg-3 col-6">
+              <div class="popular">
+                <div class="tittle">
+                  <h4>POPULAR TAGS</h4>
+                </div>
+                <div class="line">
+                  <div class="box">
+                    <a href="#">Bag</a>
+                    <a href="#">Black</a>
+                    <a href="#">Cloths</a>
+                  </div>
+                </div>
+
+                <div class="line">
+                  <div class="box">
+                    <a href="#">Fashion</a>
+                    <a href="#">Sweater</a>
+                    <a href="#">Shoes</a>
+                  </div>
+                </div>
+
+                <div class="line">
+                  <div class="box">
+                    <a href="#">Bag</a>
+                    <a href="#">Black</a>
+                    <a href="#">Cloths</a>
+                  </div>
+                </div>
+
+                <div class="line">
+                  <div class="box">
+                    <a href="#">Fashion</a>
+                    <a href="#">Sweater</a>
+                    <a href="#">Shoes</a>
+                  </div>
+                </div>
+
+                <div class="line">
+                  <div class="box">
+                    <a href="#">Bag</a>
+                    <a href="#">Black</a>
+                    <a href="#">Cloths</a>
+                  </div>
+                </div>
+
+                <div class="line">
+                  <div class="box">
+                    <a href="#">Fashion</a>
+                    <a href="#">Sweater</a>
+                    <a href="#">Shoes</a>
+                  </div>
+                </div>
               </div>
             </div>
-  
-            <div class="line">
-              <div class="box">
-                <a href="#">Fashion</a>
-                <a href="#">Sweater</a>
-                <a href="#">Shoes</a>
-              </div>
-            </div>
-  
-            <div class="line">
-              <div class="box">
-                <a href="#">Bag</a>
-                <a href="#">Black</a>
-                <a href="#">Cloths</a>
-              </div>
-            </div>
-  
-            <div class="line">
-              <div class="box">
-                <a href="#">Fashion</a>
-                <a href="#">Sweater</a>
-                <a href="#">Shoes</a>
-              </div>
-            </div>
-  
-          </div>
-        </div>
-        <div class="col-lg-3 col-6">
-          <div class="news">
-            <div class="tittle">
-              <h4>NEWSLETTER</h4>
-            </div>
-  
-            <form action="">
-              <input type="text" placeholder="Email Address...">
-              <button type="submit">Subscribe</button>
-            </form>
-  
-            <div class="tittle">
-              <h4>PAYMENT METHODS</h4>
-            </div>
-  
-            <div class="image_box">
-              <div class="image1">
-                <img src="images/PngItem_479479 1.png" alt="">
-              </div>
-  
-              <div class="image2">
-                <img src="images/PngItem_479479 2.png" alt="">
+            <div class="col-lg-3 col-6">
+              <div class="news">
+                <div class="tittle">
+                  <h4>NEWSLETTER</h4>
+                </div>
+
+                <form action="">
+                  <input type="text" placeholder="Email Address..." />
+                  <button type="submit">Subscribe</button>
+                </form>
+
+                <div class="tittle">
+                  <h4>PAYMENT METHODS</h4>
+                </div>
+
+                <div class="image_box">
+                  <div class="image1">
+                    <img src="images/PngItem_479479 1.png" alt="" />
+                  </div>
+
+                  <div class="image2">
+                    <img src="images/PngItem_479479 2.png" alt="" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="last">
+          <div class="image">
+            <img src="images/last-logo.png" alt="" />
+          </div>
+          <div class="text">
+            <p>Hamza mart E-commerce. © 2022. All Rights Reserved</p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- ==============footer_paet end================== -->
 
-    <div class="last">
-      <div class="image">
-       <img src="images/last-logo.png" alt="">
-      </div>
-      <div class="text">
-        <p>Hamza mart E-commerce. © 2022. All Rights Reserved</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-<!-- ==============footer_paet end================== -->
-
-
-
-
-
-
-
-
-
-     <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
-     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
